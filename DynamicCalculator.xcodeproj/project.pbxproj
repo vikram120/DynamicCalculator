@@ -13,6 +13,10 @@
 		98D29F882AB07D3400E93D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D29F862AB07D3400E93D1E /* Main.storyboard */; };
 		98D29F8A2AB07D3500E93D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D29F892AB07D3500E93D1E /* Assets.xcassets */; };
 		98D29F8D2AB07D3500E93D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D29F8B2AB07D3500E93D1E /* LaunchScreen.storyboard */; };
+		98D29F952AB07DF600E93D1E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D29F942AB07DF600E93D1E /* UIView+Extension.swift */; };
+		98D29F982AB081E200E93D1E /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98D29F972AB081E200E93D1E /* digital-7.ttf */; };
+		98FB16902AB1D50300521EB6 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FB168F2AB1D50300521EB6 /* HistoryViewController.swift */; };
+		98FB16922AB1D64C00521EB6 /* HistoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FB16912AB1D64C00521EB6 /* HistoryTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		98D29F892AB07D3500E93D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98D29F8C2AB07D3500E93D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98D29F8E2AB07D3500E93D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D29F942AB07DF600E93D1E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		98D29F972AB081E200E93D1E /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		98FB168F2AB1D50300521EB6 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		98FB16912AB1D64C00521EB6 /* HistoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				98D29F802AB07D3400E93D1E /* AppDelegate.swift */,
 				98D29F822AB07D3400E93D1E /* SceneDelegate.swift */,
 				98D29F842AB07D3400E93D1E /* ViewController.swift */,
+				98D29F942AB07DF600E93D1E /* UIView+Extension.swift */,
 				98D29F862AB07D3400E93D1E /* Main.storyboard */,
+				98FB168F2AB1D50300521EB6 /* HistoryViewController.swift */,
+				98FB16912AB1D64C00521EB6 /* HistoryTVC.swift */,
 				98D29F892AB07D3500E93D1E /* Assets.xcassets */,
 				98D29F8B2AB07D3500E93D1E /* LaunchScreen.storyboard */,
 				98D29F8E2AB07D3500E93D1E /* Info.plist */,
+				98D29F962AB081E200E93D1E /* Fonts */,
 			);
 			path = DynamicCalculator;
+			sourceTree = "<group>";
+		};
+		98D29F962AB081E200E93D1E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				98D29F972AB081E200E93D1E /* digital-7.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +148,7 @@
 				98D29F8D2AB07D3500E93D1E /* LaunchScreen.storyboard in Resources */,
 				98D29F8A2AB07D3500E93D1E /* Assets.xcassets in Resources */,
 				98D29F882AB07D3400E93D1E /* Main.storyboard in Resources */,
+				98D29F982AB081E200E93D1E /* digital-7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +161,9 @@
 			files = (
 				98D29F852AB07D3400E93D1E /* ViewController.swift in Sources */,
 				98D29F812AB07D3400E93D1E /* AppDelegate.swift in Sources */,
+				98D29F952AB07DF600E93D1E /* UIView+Extension.swift in Sources */,
+				98FB16902AB1D50300521EB6 /* HistoryViewController.swift in Sources */,
+				98FB16922AB1D64C00521EB6 /* HistoryTVC.swift in Sources */,
 				98D29F832AB07D3400E93D1E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
